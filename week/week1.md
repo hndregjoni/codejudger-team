@@ -1,26 +1,34 @@
-<style>
-    table {
-        width: 100%;
-    }
-    h1 {
-        margin: 0;
-    }
-</style>
+
 
 <div align="center">
     <h1> Meeting Report </h1>
     <h4> Team name: Group5 ^^</h4> 
 </div>
 
- 
-
-| Meeting Location | Meeting Date | Meeting Time |
-| :----: | :---: | :---: |  
-| Online/Cafeteria | March 31st  | 12:30 - |
-
-| Moderator | Recorder |  
-| :----: | :---: |
-|  Hysen  | Besjana |
+<div align="center">
+    <table width="100%">
+    <tr>
+        <th>Meeting Location</th>
+        <th>Meeting Date</th>
+        <th>Meeting Time</th>
+    </tr>
+    <tr>
+        <td>Online/Cafeteria</td>
+        <td>March 31st </td>
+        <td>12:30</td>
+    </tr>
+    </table>
+    <table width="100%">
+    <tr>
+        <th>Moderator</th>
+        <th>Recorder</th>
+    </tr>
+    <tr>
+        <td>Hysen</td>
+        <td>Besjana</td>
+    </tr>
+    </table>
+</div>
 
 Other members present :
 >Dario, Niki, Luis, Inis
@@ -64,4 +72,3 @@ The leader, was responsible for opening the repository on GitHub and also the wi
 
 Possible roles as of now are: frontend , backend, and database developing.
 Although, as we also discussed in the classroom , the roles will be added or changed as the weeks progress. For example, one person would be in charge of the ER diagrams, another in charge of the workflow etc.
-        
