@@ -64,7 +64,6 @@ I will be talking about evey page a little more in detail :
         classical , challenge , partial , tutorial , riddle , basics
 
 
-
 ---
 
 ##  Week 1 
