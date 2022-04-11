@@ -1,5 +1,8 @@
 # Student wiki: Luis
-<div><b> WEEK 2 </b></div>
+
+<div>
+<b> <h1>WEEK 2</h1> </b>
+</div>
 <br> </br>
 For the second week two other members and I were assigned to find existing implementations related to the chosen topic. Some of the implementations I found are : 
 1. HackerEarth <br>
@@ -15,6 +18,8 @@ CodePen is a cool online IDE that allows you to write code in your browser and s
 CodinGame's goal is to let programmers keep on improving their coding skills by solving the world’s most challenging problems, learn new concepts, and get inspired by the best developers.
 <br> </br>
 <br> </br>
-<div><b> WEEK 1 </b></div>
+<div>
+<b><h1> WEEK 1 </h1></b>
+</div>
 <br> </br>
 We were all assigned to look for ideas for the project. My idea was to create a management system web application. It is a broad idea that we could all suggest different fields. After a discussion with the group during the meeting we agreed on codejudging application.
