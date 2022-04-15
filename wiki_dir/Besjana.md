@@ -1,5 +1,52 @@
 # Student wiki: Besjana
 
+##  Week 3
+
+The work I had for this week , consisted of making up use-cases and scenarios, which will be later on turned into use-case diagram. 
+
+All in all, so far I have identified 3 actors , namely:
+- User
+- Author of problems
+- Tester (provide test cases)  
+
+---
+  
+<br>
+
+> ***Identify the actor:***  
+*problem provider/author*
+
+Possible ways the author can interact with the system are:
+-	log in as an author
+o	apply to be a problem writer
+o	proof of eligibility 
+
+-	upload the problem and valid test cases 
+-	provide help during contests [supposedly your problems will first appear during contests and then remain as permanent problems/challenges]
+ 
+
+> *a description of a use-case*   
+***Name of use-case :***   
+*Upload the problem and valid test cases.*  
+
+The author is assumed to be eligible for submission at this point and hence already has an account with the right privileges.   
+The author is past the log-in phase.  
+The author submits information about the problem, such as level of difficulty and keywords related to the nature of the problem. The problem is described roughly, in other words a first draft is provided.  
+An admin will review the problem proposal and will determine on the changes that need to be made, or even if the problem will be accepted at all.
+
+In this point the author (name of the actor) has two options :
+-	if the problem is accepted  
+o	refine it [make a better, final description]  
+o	submit a full solution  
+o	submit test cases
+-	if the problem is not accepted   
+o	make changes   
+o	try again   
+
+After the problem has been under the inspection of the admin, testers then the Problem takes the status ***Ready*** and is considered part of the contest. 
+
+
+
 ##  Week 2  
 
 Firstly, it was decided that the project was a coding contest software.
