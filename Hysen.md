@@ -1,5 +1,17 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 3
+This week I decided upon a task that would be fit for this week, which happened to be the coming up with usecase scenarios. Apart from that, an overview of the possible diagrams
+required was done. With some help, I worked on the Usecase diagram, creating a general sketch of the actors and their respective usecases.
+
+The actors, up to now (and based on Besjana's work), are:
+1. User
+2. Admin (an extension of User)
+3. Problem Setter (an extension of User)
+4. Tester (not an actual individual, moreso the part of the system that will do the judging)
+
+Some tasks for next week were also discussed.
+
 # Week 2
 This other week I prepared the repositories to be used. The idea is to separate the main repository which will host the implementation in the coming weeks, from the repository which will contain the material required by the course.
 The repos are:
