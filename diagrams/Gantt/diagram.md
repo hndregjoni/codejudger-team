@@ -18,15 +18,3 @@ gantt
     Bootstrapping backend            :2022-04-18, 14d 
     Bootstrapping judging server     :2022-04-25, 14d
 ```
-
-~~besa the best has taken over xD~~
-under control
-
-***the woman was too stunned to speak***   
-switch computers **DONE**
-<br>
-wohooooskjakf'a
-yaya this is so much fun 
-wohoow yaay
-
-birds and the bees
