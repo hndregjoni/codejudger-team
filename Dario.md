@@ -1,5 +1,14 @@
 # Student wiki: Dario
 
+## Week 3:
+This week's objective was exploring User Stories, each group member was given a task of coming up with 2 User stories. Here are mine.
+
+**1.** Tristan, as a bachelor student is looking to be tested on his programming knowledge. He wishes to practise programming questions not just one's limited to his curriculum, he is looking for a site that provides plenty of variety in programming exercises and one which will help him develop his skills as a programmer.
+
+**2.** Max, Andy and Sam are a group of colleuge students that have been assigned working on a Computer Engineering project, one that requires knwoing how to code. They wish to have a platform that can easily implement "Teams", perhaps our Judger can implement a way for users to invite each other, form teams and work on challanging questions together.
+
+DISCLAIMER: These are just ideas, not a promise of what will be on the project
+
 ## Week 2:
 During this week our leader split the task, mine being to listing features that would be appropriate for a project such as this. I looked into potential ideas by browsing through Code Judgers primarily ACM and LeetCode and some feautures I brainstormed that could be useful if we where able to implement on our project are:
 
