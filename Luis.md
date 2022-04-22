@@ -1,4 +1,17 @@
 # Student wiki: Luis
+<div>
+<b> <h1> WEEK 3 </h1> </b>
+<div>
+<br> </br>
+Week 3 objective was to create use cases/scenarios for the web application. Each group member should come up with 2 scenarios.
+<br>
+1. John studies computer science. He wishes to practice and to excercise coding.
+<br>
+2. Tom was challenged by his group of friends to make a small game like sudoku etc. He searched on the web how to improve programming skills.
+<br>
+
+
+
 
 <div>
 <b> <h1>WEEK 2</h1> </b>
