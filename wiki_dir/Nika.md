@@ -1,6 +1,12 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 4 </h1> </b>
+</div>
+<br>
+On week 4 on one of the meetings we learned how to use Git bash. My task this week was to work on UC table, for which I cooperated with UC diagram created by the sub-group that was in charge of that. This week I also started thinking about UI design, which I tried to make as professional as possible. I also started researching different frameworks.
+
+<div>
   <b>  <h1> Week 3 </h1> </b>
 </div>
 <br>
