@@ -1,5 +1,32 @@
 # Student wiki: Besjana
 
+##  Week 4
+Work assigned to me for this week :  
+>dealing with UI  (more precisely, sketches and prototype)  
+
+Work I did this week :  
+I did the sketche which are uploaded in the ***/sketches*** folder (hand-drawn). Then using Figma, I turned some of them into wireframes. I have yet to finish them all. 
+Something that was not explicitly assigned was : use case diagram.  
+
+Me and Hysen gathered and worked on it and one version of it is uploaded on the ***/diagrams*** folder .
+The use case diagram consists of all the actors that , so far, we think are part of the software.
+The actors are:
+-	User (which is somehow used as a blueprint for some use cases )
+	- Log in
+	- Sign up 
+	- Reset password
+	-  Change profile settings and user info
+	-  Delete account 
+	-  View notifications
+-	Admin (extends the User)
+-	Problem Setter (extends the User)
+- Solver (extends the User)
+- Judger (non-human actor )
+ 
+ Lastly, I became a member of codeJudger in Trello to view the tasks in kan-ban style.
+
+😃
+
 ##  Week 3
 
 The work I had for this week , consisted of making up use-cases and scenarios, which will be later on turned into use-case diagram. 
