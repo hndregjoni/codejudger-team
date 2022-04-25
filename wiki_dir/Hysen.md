@@ -1,5 +1,11 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 4
+As a carried effort from last week, we furnished our Trello boards. I also worked on the Gantt chart,
+setting up a rough sketch of what we will spend our time on. I worked on some sketches of the ERD which have
+yet to be finalized, but are still commited to the repo. Furthermore, I instructed my team mates on the way one would go about to using git (setitng up the keys, cloning, branching and all that.). We improved the project
+structure slightly, and also set up Git LFS for large files, which we used to upload the wireframes of the user interface.
+
 # Week 3
 This week I decided upon a task that would be fit for this week, which happened to be the coming up with usecase scenarios. Apart from that, an overview of the possible diagrams
 required was done. With some help, I worked on the Usecase diagram, creating a general sketch of the actors and their respective usecases.
