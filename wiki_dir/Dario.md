@@ -1,5 +1,8 @@
 # Student wiki: Dario
 
+## Week 4:
+This week I was assigned working on a User Case Table. I chose a Daily Challange User Case thinking we should use more diverse user cases. Also downloaded Git Bash and set up my SSH keys.
+
 ## Week 3:
 This week's objective was exploring User Stories, each group member was given a task of coming up with 2 User stories. Here are mine.
 
