@@ -1,0 +1,77 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{svg}
+\usepackage{mymacros}
+
+% Constants
+\newcommand{\TheDate}{April 19, 2022}
+\newcommand{\TheProject}{CodeJudger}
+
+% Page dimensions
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,247mm},
+ left=20mm,
+ top=30mm,
+ }
+
+
+% Sec depth:
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% Header & Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\TheProject}
+\fancyhead[RE,LO]{Requirement Specification}
+\fancyfoot[LE,LO]{\TheDate}
+\fancyfoot[RE,RO]{\thepage}
+
+% Font
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{AlegreyaSans} %% Option 'black' gives heavier bold face
+%% The 'sfdefault' option to make the base font sans serif
+\renewcommand*\oldstylenums[1]{{\AlegreyaSansOsF #1}}
+
+% \singlespacing
+
+\setstretch{1.0}
+
+\title{\TheProject\ Requirement Specification \\
+Version 1.0}
+\date{\TheDate}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+% Executive Summary
+\include{./sections/01_executive_summary.tex}
+\pagebreak
+
+% Product/Service Descrption
+\include{./sections/02_product_description.tex}
+\pagebreak
+
+% Requirements
+\include{./sections/03_requirements.tex}
+\pagebreak
+
+% User Scenarios/Usecases
+\include{./sections/04_user_scenarios.tex}
+\pagebreak
+
+% Appendix
+\include{./sections/99_appendix.tex}
+\pagebreak
+
+\end{document}
