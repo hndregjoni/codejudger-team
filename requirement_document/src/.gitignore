@@ -1,0 +1,14 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz
+_markdown_document/
+*.markdown.in
+*.markdown.lua
+*.markdown.out
+document.toc
+document.markdown.err
+svg-inkscape/
+build/
