@@ -1,5 +1,12 @@
 # Student wiki: Besjana
 
+##  Week 5
+This week I kept doing the work from last week.  
+I have uploaded the remaining wireframes in the ***sketches\ui\wireframes*** folder.
+I also worked more on the usecase diagrams. They are in their final state.  
+Last but not least, I reviewed the work done by other members on the UC tables and Activity diagram.
+
+
 ##  Week 4
 Work assigned to me for this week :  
 >dealing with UI  (more precisely, sketches and prototype)  
