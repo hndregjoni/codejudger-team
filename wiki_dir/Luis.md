@@ -1,7 +1,12 @@
 # Student wiki: Luis
 <div>
+<br> <h1> WEEK 4 </h1>
+Week 4 objective was to provide exercises of different difficult levels and different programming languages. I also provided their solutions which I tested myself. I stared with Java programming.
+
+<br>
 <b> <h1> WEEK 3 </h1> </b>
 <div>
+<br>
 <br> </br>
 Week 3 objective was to create use cases/scenarios for the web application. Each group member should come up with 2 scenarios.
 <br>
