@@ -1,6 +1,18 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 6 </h1> </b>
+</div>
+<br>
+
+The week before the midterms was a handful but that didn't affect working on the project. During our team meeting this week, we discussed about different frameworks for frontend, backed, database. Some that we mentioned were:<ul> <li>PostgreSQL</li> <li>Flask</li> <li> FastAPI</li><li> NextJS</li> <li>SQLAlchemy</li></ul> NextJS I had already gone into alongside React. 
+<br>
+During this week I was in charge of the State diagram. So firstly I started by going over the slides that explain all its components and then I watched some tutorials. For the state diagram I used Gliffy online diagramming tool.
+
+
+<div>
+
+<div>
   <b>  <h1> Week 5 </h1> </b>
 </div>
 <br>
