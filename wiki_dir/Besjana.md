@@ -1,5 +1,12 @@
 # Student wiki: Besjana
 
+##  Week 6
+This is the week before midterm week, hence I spent the time dedicated to this project doing miscellaneous tasks, such as:  
+- reading about diagrams 
+- checking the work of other team members
+- thinking of the refinements that could be made# 
+
+
 ##  Week 5
 This week I kept doing the work from last week.  
 I have uploaded the remaining wireframes in the ***sketches\ui\wireframes*** folder.
