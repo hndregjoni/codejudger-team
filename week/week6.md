@@ -55,8 +55,8 @@ The meeting started with a brief explanation on how the implementation would be 
     -   Postgre for database 
 
 Another decison made was regarding the diagrams. Using our Trello boards, it was concluded that the diagrams which were due were:   
-Activity Diagrams, State Diagrams, some additional Use Case tables and refining the one which needed further improvement.  
-Since the Requirements Specification document was constructed using LaTex last week, naturally it was decided that the document should be 
+Activity Diagrams, State Diagrams, some additional Use Case tables and refining the one which needed further improvement.    
+Since the Requirements Specification document was constructed using LaTex last week, naturally it was decided that the document be filled out partially. 
 
 <br>
 
