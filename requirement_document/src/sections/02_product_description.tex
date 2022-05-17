@@ -1,8 +1,23 @@
 \section{Product/Service Description}
-In this section, describe the general factors that affect the product and its requirements. This section should contain background information, not state specific requirements (provide the reasons why certain specific requirements are later specified).
+
+This project is primarily organized as a web service. The interface is to be served via the browser (API endpoints is available to facilitate further mediums). As hinted, one primary aspect of the system will be the 
+backend server, serving the API.
+
+The architecture of the system is to be monolithic, with some specific cases where a granular approach is chosen to enable for a more appropriate seperation of the domains. This is exemplified in the
+fact that there will be a database server, a caching server, and also the novel judging servers. The latter are the more pertinent example. Their existence assures a more horizontally scalable approach to answer validation and code
+running, as well as a more isolated environment for the execution of the code, which greatly limits potential attack surfaces for the system.
+
+The components are as follows:
+\begin{enumerate}
+    \item The Gateway
+    \item Backend server
+    \item Frontend server
+    \item Database server
+    \item Cache server
+    \item Judge servers
+\end{enumerate}
 
 \subsection{Product Context}
-How does this product relate to other products? Is it independent and self-contained?  Does it interface with a variety of related systems?  Describe these relationships or use a diagram to show the major components of the larger system, interconnections, and external interfaces.
 
 \subsection{User Characteristics}
 Create general customer profiles for each type of user who will be using the product. Profiles should include:
