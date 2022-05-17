@@ -1,5 +1,11 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 6
+This week primarily went by with me explaining the implementation decision and details. I also ended up switching Flask for FastAPI, and as such ending up also choosing a front end framework. The two more forefront options were NextJs and NuxtJs. NextJs was attempted, but it didn't really fit with the requirements, so Nuxt was chosen. I also ended up configuring a basic Docker set up (based on an official FastAPI boilerplate). I also worked on some stuff I should have finished since long ago:
+1. The ERD diagram.
+2. A more spanning list of usecase scenarios.
+3. The requirement document.
+
 # Week 5
 This week I worked primarily on typesetting the Requirement Specification Document in a VCS-friendly format, and for
 that I chose $\LaTeX$ (another option I was considering was Markdown,but tables of content in that would require lots of work). The most initial version of this document (very empty) can be found in this commit: [d1af2481306199b539f466d9e96282a1dd79b1cf](https://github.com/hndregjoni/codejudger-team/tree/d1af2481306199b539f466d9e96282a1dd79b1cf/requirement_document)
