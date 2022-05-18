@@ -1,5 +1,8 @@
 # Student wiki: Dario
 
+## Week 5:
+This week's assignment was regarding a rought sketch of an activity diagram. I made one with Daily Chllanges as a topic. Other than this I started looking into design aspect, started playing around with software such as Pixir, and researched UI and Website Design on various videos.
+
 ## Week 4:
 This week I was assigned working on a User Case Table. I chose a Daily Challange User Case thinking we should use more diverse user cases. Also downloaded Git Bash and set up my SSH keys.
 
