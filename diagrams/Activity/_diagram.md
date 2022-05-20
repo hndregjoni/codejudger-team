@@ -7,5 +7,5 @@
 # Admin
 ![problem_setter](./activity_3.svg)
 
-# Sumbit solution
-![solver](./SubmittingSolution.svg)
+# Log in
+![user](./LoginWaysUpdated.svg)
