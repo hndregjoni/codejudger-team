@@ -1,5 +1,4 @@
 # Login
-
 ![login](./activity_1.svg)
 
 # Problem Setter
@@ -7,3 +6,6 @@
 
 # Admin
 ![problem_setter](./activity_3.svg)
+
+# Log in
+![user](./LoginWaysUpdated.svg)
