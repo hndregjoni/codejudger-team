@@ -9,3 +9,9 @@
 
 # Log in
 ![user](./LoginWaysUpdated.svg)
+
+# Submit solution
+![user](./SubmitSolutionUpdated.svg)
+
+# Create a problem
+![problem_setter](./CreateProblem.svg)
