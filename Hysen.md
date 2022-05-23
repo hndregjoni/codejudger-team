@@ -1,5 +1,15 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 7
+This week I worked primarily on organizing some of the work with the diagrams, handling the distribution of tasks, and also started working ever so slightly on the Judge Server.
+The diagrams mostly consisted of Activity diagrams, pertaining to the Usecase tables. Some worked on by me were:
+- Creation of a problem
+- Forking of a problem
+- Password reset
+
+One major part of my efforts this week also went on bootstrapping the judging server. This was very minimal and consisted in me working on a CLI tool that will be invoked to run the testcases
+over an executable file (which will be a compiled solution, or some script that runs the interpreter over a solution in an interpreted language.).
+
 # Week 6
 This week primarily went by with me explaining the implementation decision and details. I also ended up switching Flask for FastAPI, and as such ending up also choosing a front end framework. The two more forefront options were NextJs and NuxtJs. NextJs was attempted, but it didn't really fit with the requirements, so Nuxt was chosen. I also ended up configuring a basic Docker set up (based on an official FastAPI boilerplate). I also worked on some stuff I should have finished since long ago:
 1. The ERD diagram.
