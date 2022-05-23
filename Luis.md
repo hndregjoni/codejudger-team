@@ -11,7 +11,12 @@ In week 6 I was assigned to research security concerns regarding the execution o
 <br>
 <h3>System resources (DoS).</h3> If you allow arbitrary code execution on your systems, then it is easy to deplete system resources on that machine, on purpose, or by accident. Writing code that fills the entire HDD with garbage is easy, preventing it without severely crippling the system is much harder. The same goes for other system resources, such as CPU cycles, RAM, network bandwidth, etc.
 </br>
-
+<h3>How Technologies like Docker and seccomp reduce the risk. </h3>
+<h5> Docker </h5>
+Applications running in containers can be deployed easily to multiple different operating systems and hardware platforms. DevOps teams know applications in containers will run the same, regardless of where they are deployed. Containers allow applications to be more rapidly deployed, patched, or scaled.
+<h5> seccomp </h5>
+Secure computing mode ( seccomp ) is a Linux kernel feature. You can use it to restrict the actions available within the container. The seccomp() system call operates on the seccomp state of the calling process. You can use this feature to restrict your application's access.
+<br>
 <br> <h1> WEEK 4 </h1>
 Week 4 objective was to provide exercises of different difficulty levels and different programming languages. I also provided their solutions which I tested myself. I started with Java programming.
 
