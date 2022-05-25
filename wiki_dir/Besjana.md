@@ -1,4 +1,13 @@
 # Student wiki: Besjana
+## Week 7 
+Work that I accomplished this week:  
+		- Be a leader for a day (in the absence of 	Hysen)m  
+		- Work on use case tables  
+		- Help other members with technical stuff (git)  
+		- Update Trello board (progress update)  
+		- Read more about frontend 
+
+All in all, it was a productive week. [I am writing the last sentence for me to see later on.]
 
 ##  Week 6
 This is the week before midterm week, hence I spent the time dedicated to this project doing miscellaneous tasks, such as:  
