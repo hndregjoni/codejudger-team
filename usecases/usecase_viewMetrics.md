@@ -1,5 +1,5 @@
 | UC Name	  | UC code and name goes here |
-| :---        |    :----:   |
+| :---        |    :----  |
 | Summary      | Admin views system metrics       |
 | Dependency   | - |
 | Actors   | Admin       |
