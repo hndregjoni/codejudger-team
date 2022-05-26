@@ -14,4 +14,4 @@
 ![user](./SubmitSolutionUpdated.svg)
 
 # Create a problem
-![problem_setter](./CreateProblem.svg)
+![problem_setter](./CreateAproblem.svg)
