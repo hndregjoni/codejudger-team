@@ -9,3 +9,9 @@
 
 # Log in
 ![user](./LoginWaysUpdated.svg)
+
+# Fork problem
+![problem_setter](./ForkProblem.svg)
+
+# Admin bans user
+![admin](./AdmBansUser.svg)
