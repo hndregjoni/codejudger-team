@@ -15,3 +15,10 @@
 
 # Admin bans user
 ![admin](./AdmBansUser.svg)
+
+# Flag a problem
+![problem_setter](./FlagProblem.svg)
+
+# User forgets password
+![user](./ForgotPassword.svg)
+
