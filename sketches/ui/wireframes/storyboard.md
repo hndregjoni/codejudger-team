@@ -1,4 +1,6 @@
 # Wireframes for the UI
+<div align="center">
+
 ## Login page
 
 ![Login page](./Login.svg)
@@ -14,3 +16,21 @@
 ## List page
 
 ![Home page](./home_problem.svg)
+
+## Admin page
+
+![Home page](./admin-page.svg)
+
+## Problem submission page
+
+![Home page](./problem_sub.svg)
+
+## Problem setter page
+
+![Home page](./problem-setter.svg)
+
+## User profile page
+
+![Home page](./user-profile.svg)
+
+</div>

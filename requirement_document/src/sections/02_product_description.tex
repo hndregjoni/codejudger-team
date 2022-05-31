@@ -1,0 +1,39 @@
+\section{Product/Service Description}
+
+This project is primarily organized as a web service. The interface is to be served via the browser (API endpoints is available to facilitate further mediums). As hinted, one primary aspect of the system will be the 
+backend server, serving the API.
+
+The architecture of the system is to be monolithic, with some specific cases where a granular approach is chosen to enable for a more appropriate seperation of the domains. This is exemplified in the
+fact that there will be a database server, a caching server, and also the novel judging servers. The latter are the more pertinent example. Their existence assures a more horizontally scalable approach to answer validation and code
+running, as well as a more isolated environment for the execution of the code, which greatly limits potential attack surfaces for the system.
+
+The components are as follows:
+\begin{enumerate}
+    \item The Gateway
+    \item Backend server
+    \item Frontend server
+    \item Database server
+    \item Cache server
+    \item Judge servers
+\end{enumerate}
+
+\subsection{Product Context}
+
+\subsection{User Characteristics}
+Create general customer profiles for each type of user who will be using the product. Profiles should include:
+
+\begin{enumerate}
+    \item{Student/faculty/staff/other}
+    \item{experience}
+    \item{technical expertise}
+    \item{other general characteristics that may influence the product}
+\end{enumerate}
+
+\subsection{Assumptions}
+List any assumptions that affect the requirements, for example, equipment availability, user expertise, etc.  For example, a specific operating system is assumed to be available; if  the operating system is not available, the Requirements Specification would then have to change accordingly.
+
+\subsection{Constraints}
+Describe any items that will constrain the design options, including
+
+\subsection{Dependencies}
+List dependencies that affect the requirements.  Examples:

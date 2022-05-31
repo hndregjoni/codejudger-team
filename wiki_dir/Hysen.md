@@ -1,5 +1,36 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 7
+This week I worked primarily on organizing some of the work with the diagrams, handling the distribution of tasks, and also started working ever so slightly on the Judge Server.
+The diagrams mostly consisted of Activity diagrams, pertaining to the Usecase tables. Some worked on by me were:
+- Creation of a problem
+- Forking of a problem
+- Password reset
+
+One major part of my efforts this week also went on bootstrapping the judging server. This was very minimal and consisted in me working on a CLI tool that will be invoked to run the testcases
+over an executable file (which will be a compiled solution, or some script that runs the interpreter over a solution in an interpreted language.).
+
+# Week 6
+This week primarily went by with me explaining the implementation decision and details. I also ended up switching Flask for FastAPI, and as such ending up also choosing a front end framework. The two more forefront options were NextJs and NuxtJs. NextJs was attempted, but it didn't really fit with the requirements, so Nuxt was chosen. I also ended up configuring a basic Docker set up (based on an official FastAPI boilerplate). I also worked on some stuff I should have finished since long ago:
+1. The ERD diagram.
+2. A more spanning list of usecase scenarios.
+3. The requirement document.
+
+# Week 5
+This week I worked primarily on typesetting the Requirement Specification Document in a VCS-friendly format, and for
+that I chose $\LaTeX$ (another option I was considering was Markdown,but tables of content in that would require lots of work). The most initial version of this document (very empty) can be found in this commit: [d1af2481306199b539f466d9e96282a1dd79b1cf](https://github.com/hndregjoni/codejudger-team/tree/d1af2481306199b539f466d9e96282a1dd79b1cf/requirement_document)
+
+As a second thing I did, I actually created a simple Flask boilerplate for the webapp, which currently lacks even authentication, but it has some of the basics laid down. This is only pertinent for the web interface (which is only one part of the system), but the tech stack for now will be:
+
+- *Language*: Python
+- *Framework*: Flask
+- *ORM*: SqlAlchemy
+- *DB*: Postgre
+
+For a more streamlined development experience Docker will be used, and over the course of Sunday I made it so the Dockerfile and the docker-compose.yml are sufficiently usable.
+
+As for managerial duties, I distributed some work pertaining to the Activity and the State diagram.
+
 # Week 4
 As a carried effort from last week, we furnished our Trello boards. I also worked on the Gantt chart,
 setting up a rough sketch of what we will spend our time on. I worked on some sketches of the ERD which have

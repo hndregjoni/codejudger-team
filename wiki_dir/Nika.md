@@ -1,6 +1,49 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 7 </h1> </b>
+</div>
+<br>
+
+
+This week we changed once again our frontend framework. We chose NuxtJS, which is a open source JavaScript library that enables developers to build Server Side Rendered applications in which a Node.js server will deliver HTML to the client based on Vue components. So now I had to start from square one with the new framework. The first introduction consisted on :
+<ul>
+<li>Setting up default meta tags for all pages</li>
+<li>Setting up meta tags for your pages individually</li>
+<li>Setting up meta tags for your dynamic pages</li>
+<li>Handling redirects with Nuxt.js</li>
+</ul>
+<br>
+This week I also worked on activity diagrams.
+
+<div>
+
+<div>
+  <b>  <h1> Week 6 </h1> </b>
+</div>
+<br>
+
+The week before the midterms was a handful but that didn't affect working on the project. During our team meeting this week, we discussed about different frameworks for frontend, backed, database. Some that we mentioned were:<ul> <li>PostgreSQL</li> <li>Flask</li> <li> FastAPI</li><li> NextJS</li> <li>SQLAlchemy</li></ul> NextJS I had already gone into alongside React. 
+<br>
+During this week I was in charge of some diagrams. So firstly I started by going over the slides that explain all its components and then I watched some tutorials. 
+
+
+<div>
+
+<div>
+  <b>  <h1> Week 5 </h1> </b>
+</div>
+<br>
+This week consisted of three main tasks. 
+<ul><li>
+ First was to keep on working on UseCase Tables that I started last week. There is still need to make some changes like adding the code so that will take some time. I also worked on the non-functional requirements part of the table that I hadn't previously included and is still to be added on github.</li> 
+<li> Learning and practicing the framework was a crucial part of the week. </li> 
+<li> My new task was to work on the activity diagrams, which I provided and shared with the other members of the group to have their take on the order of the activities. </li>
+</ul>
+
+<div>
+
+<div>
   <b>  <h1> Week 4 </h1> </b>
 </div>
 <br>
@@ -12,7 +55,7 @@ On week 4 on one of the meetings we learned how to use Git bash. My task this we
 <br>
 The third week was spent focusing on different scenarios. Each group member had the same task, create two scenarios according to the example in the textbook & what makes people want to use CodeJudger.
 
-<br><br>
+<br>
 <b>1st scenario: </b><br><br>
 Josh is a teenager who has seen lots of movies about cool IT guys that can solve just about anything by making a simple code, so he decided it was time to take his programming skills to the next level. He finds an online code judger where he can practice coding with the right mixture of competition and fun. Once he logs in, he is asked what language he would like to work with. Below are displayed some choices. The first one a crash course section, then a ‘daily challenge’ , a tournament (consists of multiple sets of questions) and a forum. <br>
 If he chooses crash course, he is redirected to a YouTube video depending on the language he has chosen.<br>
