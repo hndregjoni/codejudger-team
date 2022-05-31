@@ -1,5 +1,20 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 8
+This week I again worked on several diagrams:
+- Flagging a problem (Activity)
+- Adding a Judge server (Activity)
+- Problem state diagram
+
+Effort also went into the creation of the application model (using SQLAlchemy, as mentioned). SQL migrations were also created for that model, and now several entities exist (generally abiding the ERD diagram). These entities include:
+- User
+- Problem
+- ProblemAttempt
+- Submission
+- Language
+
+I also described how the development environment is set up, for Besjana and Nika, so they can work on the frontend. This included setting up Docker, and launching the Vue dev server. I also added a simple component to the view, to showcase how it's done.
+
 # Week 7
 This week I worked primarily on organizing some of the work with the diagrams, handling the distribution of tasks, and also started working ever so slightly on the Judge Server.
 The diagrams mostly consisted of Activity diagrams, pertaining to the Usecase tables. Some worked on by me were:
