@@ -8,7 +8,7 @@ Week 8 consisted of researching how to set up a development enviroment. <br>
 First I had to download Docker for windows, for which Hysen helped on explaining how to set it up and launch the Vue dev server. <br>
 To further understand such a widely used platform such as Docker I also made my own exploration and analysis online.<br>
 Some activity diagrams took up some of my time this week also.<br><br>
-This week I also decided to test myself on the knowledge of NuxtJS that I have been getting for the past week. For this I used one of the wireframes meant for our project and I really saw quite a progress.
+This week I also decided to test myself on the knowledge of NuxtJS that I have been getting for the past week. For this I used one of the wireframes meant for our project and I really saw quite the progress.
 
 <div>
 
