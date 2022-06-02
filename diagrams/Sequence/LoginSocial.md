@@ -26,7 +26,7 @@ sequenceDiagram
         else
             External Auth-->>Backend: Return token is valid and user data
             deactivate External Auth
-            Backend->>DBMS: ->>Check user with socials exists
+            Backend->>DBMS: Check user with socials exists
             activate DBMS
             alt User doesn't exist
                 DBMS-->>Backend: No data found

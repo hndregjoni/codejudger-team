@@ -25,7 +25,7 @@ sequenceDiagram
             alt User banned
                 Backend-->>Client: User banned resp.
             else
-                Backend->>Backend: Generate Beared token
+                Backend->>Backend: Generate Bearer token
                 Backend-->Client: Return token
                 deactivate Backend
                 Client->>Client: Store token
