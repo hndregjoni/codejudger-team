@@ -1,6 +1,19 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 9 </h1> </b>
+</div>
+<br>
+This week on the spotlight were state diagrams and fronted implementation. <br> 
+For state diagrams I chose to look over user states.<br> In codejudger user states are: not registered, registered, not authenticated, authenticated, banned and disabled. <br>
+For the frontend I continued the work from last week.<br>
+In addition, this week I also got familiar with Canva in order to make a logo for our web application.
+
+
+
+<div>
+
+<div>
   <b>  <h1> Week 8 </h1> </b>
 </div>
 <br>
