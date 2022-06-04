@@ -49,7 +49,7 @@ Another topic discussed were the diagrams that were expected of us , which were 
         - Sequence diagram
         - Gantt chart
         - Class diagrams 
-  
+
 As mentioned also in the classroom , we have already done the Gantt chart.
 As for the class diagrams, they are automatically generated since the approach we have chose a.k.a the ORM makes it posibble.
 <br>
