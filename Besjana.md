@@ -1,4 +1,18 @@
 # Student wiki: Besjana
+
+## Week 9 
+After Hysen lost in a bet, it was decided that I was leader for the week. Actually the bet started from the end of last week, meaning on Friday when we usually have our weekly meetings with the rest of the teams (classmates).  
+I distributed some tasks and that went relatively well.  
+As for the work I did besides managerial duties, I started working on frontend, more concretely on the Login page. 
+
+## Week 8 
+Diagrams are an important part of the project, and they also take up most of the work that need to be done.  
+The focus of the week in regards to diagrams were state diagrams and activity diagrams.  
+I created some activity diagrams based on the UC tables I have previously uploaded (it was almost seamless the transition). I also refined the state diagram which Hysen had conceptualised, mostly visually and some syntax.  
+  
+Programming wise, I installed the necessary apps that our team will be using in terms of developing the webapp.  
+I will be in charge of frontend and will base of the wireframes to start coding .
+
 ## Week 7 
 Work that I accomplished this week:  
 		- Be a leader for a day (in the absence of 	Hysen)m  
