@@ -1,5 +1,5 @@
 | UC Name	  | UC code and name goes here |
-| :---        |    :----:   |
+| :---        |    :----  |
 | Summary      | Problem Setter creates a problem    |
 | Dependency   | -  |
 | Actors   | Problem Setter      |

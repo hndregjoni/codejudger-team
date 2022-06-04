@@ -1,5 +1,5 @@
 | UC Name	  | UC code and name goes here |
-| :---        |    :----:   |
+| :---        |    :----   |
 | Summary      | Change profile settings     |
 | Dependency   | -  |
 | Actors   | User (and all subtypes)        |
