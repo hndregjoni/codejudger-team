@@ -1,6 +1,31 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 9 </h1> </b>
+</div>
+<br>
+This week on the spotlight were state diagrams and fronted implementation. <br> 
+For state diagrams I chose to look over user states.<br> In codejudger user states are: not registered, registered, not authenticated, authenticated, banned and disabled. <br>
+For the frontend I continued the work from last week.<br>
+In addition, this week I also got familiar with Canva in order to make a logo for our web application.
+
+
+
+<div>
+
+<div>
+  <b>  <h1> Week 8 </h1> </b>
+</div>
+<br>
+Week 8 consisted of researching how to set up a development enviroment. <br> 
+First I had to download Docker for windows, for which Hysen helped on explaining how to set it up and launch the Vue dev server. <br>
+To further understand such a widely used platform such as Docker I also made my own exploration and analysis online.<br>
+Some activity diagrams took up some of my time this week also.<br><br>
+This week I also decided to test myself on the knowledge of NuxtJS that I have been getting for the past week. For this I used one of the wireframes meant for our project and I really saw quite the progress.
+
+<div>
+
+<div>
   <b>  <h1> Week 7 </h1> </b>
 </div>
 <br>
@@ -47,7 +72,7 @@ This week consisted of three main tasks.
   <b>  <h1> Week 4 </h1> </b>
 </div>
 <br>
-On week 4 on one of the meetings we learned how to use Git bash. My task this week was to work on UC table, for which I cooperated with UC diagram created by the sub-group that was in charge of that. This week I also started thinking about UI design, which I tried to make as professional as possible. I also started researching different frameworks.
+On week 4 on one of the meetings we learned how to use Git bash.<br> My task this week was to work on UC table, for which I cooperated with UC diagram created by the sub-group that was in charge of that. <br> This week I also started thinking about UI design, which I tried to make as professional as possible.<br> I also started researching different frameworks. 
 
 <div>
   <b>  <h1> Week 3 </h1> </b>
