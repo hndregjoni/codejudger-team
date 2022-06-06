@@ -1,5 +1,14 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 9
+This week I worked on diagrams once more. The primary additions were:
+- DFD level 0
+- 2 login sequence diagrams.
+
+I also helped sketch an additional state diagram and 2 additional sketch diagrams.
+
+Other than that I helped the team members to set up the development environment, and also worked somewhat on the backend.
+
 # Week 8
 This week I again worked on several diagrams:
 - Flagging a problem (Activity)
