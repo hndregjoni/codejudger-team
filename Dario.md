@@ -1,5 +1,14 @@
 # Student wiki: Dario
 
+## Week 8:
+Added 1 more diagram about Running a solution.
+
+## Week 7:
+Added 2 more diagrams. An Activity Diagram about Adding a Server, and another one about creating a Contest.
+
+## Week 6:
+Added 2 diagrams. A deployment Diagram and a Activity Diagram about what happens if the User forets their password.
+
 ## Week 5:
 This week's assignment was regarding a rought sketch of an activity diagram. I made one with Daily Chllanges as a topic. Other than this I started looking into design aspect, started playing around with software such as Pixir, and researched UI and Website Design on various videos.
 
