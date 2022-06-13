@@ -1,10 +1,21 @@
 # Student wiki: Nika
 
 <div>
+  <b>  <h1> Week 10 </h1> </b>
+</div>
+<br>
+Week 10 was all about the frontend. <br>
+What I worked on the beginning of this week was the sign up page, which has two stages where you first enter username and enter&confirm the password and then you get to the next stage where additional information about the profile.<br>
+The second part took more time because I had to redo it so that the information asked from user to enter matches the database requirements.<br>
+Next I worked on the page that has a list of all the problems. <br>This list also provides some information on what difficulty level the problem is, date posted, status and tags. <br>What I found tricky this time around was making the filtering also look presentable. 
+
+<div>
+
+<div>
   <b>  <h1> Week 9 </h1> </b>
 </div>
 <br>
-This week on the spotlight were state diagrams and fronted implementation. <br> 
+This week on the spotlight were state diagrams and frontend implementation. <br> 
 For state diagrams I chose to look over user states.<br> In codejudger user states are: not registered, registered, not authenticated, authenticated, banned and disabled. <br>
 For the frontend I continued the work from last week.<br>
 In addition, this week I also got familiar with Canva in order to make a logo for our web application.
