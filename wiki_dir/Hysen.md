@@ -1,5 +1,15 @@
 # Student wiki: [Hysen](https://github.com/hndregjoni)
 
+# Week 10
+This week I primarily worked on the backend, but some frontend work was sprinkled in. Things I worked on include:
+- Refining the application data model
+- Filling in the endpoints
+- Wiring up the frontend authentication flow with the backend
+- Organizing the pages in the frontend
+- UI suggestions and improvements.
+
+Other than that I also managed the workload distribution with the 3 core developer members of the group.
+
 # Week 9
 This week I worked on diagrams once more. The primary additions were:
 - DFD level 0
