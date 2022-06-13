@@ -1,5 +1,9 @@
 # Student wiki: Besjana
 
+## Week 10
+This week I worked diligently on frontend.   
+The good thing about the task was that I could see the changes immediately, since we are using a framework which provides auto-reloading. 
+
 ## Week 9 
 After Hysen lost in a bet, it was decided that I was leader for the week. Actually the bet started from the end of last week, meaning on Friday when we usually have our weekly meetings with the rest of the teams (classmates).  
 I distributed some tasks and that went relatively well.  
