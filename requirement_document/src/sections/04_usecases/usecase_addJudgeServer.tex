@@ -2,7 +2,7 @@
 \centering
 \begin{tabularx}{\textwidth}{|l|X|}
 \hline
-UC Name & UC code and name goes here \\ \hline
+UC Name & UC\_Add\_judge\_server \\ \hline
 
 Summary &  Judge servers are aimed to be horizontally scalable, even though one can do the job. An Admin can add additional ones. \\ \hline
 
@@ -14,11 +14,11 @@ Preconditions & \- The server to be added must be set up. \newline \- No two ser
 
 Description of the Main Sequence & 1. Admin opens list of Judge servers. \newline 2. Admin clicks the "Add" button. \newline 3. Admin is asked for the hostname and the port. \newline 4. Admin is asked for an authentication mechanism (no auth, basic authentication, cryptographic key, or auth token can be implemented.) \newline 5. Admin can add priority configuration, and capacity. \newline 6. Admin can ping the server for availability. \newline 7. Admin adds languages supported by the server. \\ \hline
 
-Descriptoin of the Alternative Sequence & The languages supported can be added: \newline \- Manually from a list. \newline \- Queried from the server. \\ \hline
+Description of the Alternative Sequence & The languages supported can be added: \newline \- Manually from a list. \newline \- Queried from the server. \\ \hline
 
 Non functional requirements & \- Transport security and isolation of the judge servers. \newline \\ \hline
 
-Postconditoin & A functional judge server is added, and ready to receive queued problems. \\ \hline
+Postcondition & A functional judge server is added, and ready to receive queued problems. \\ \hline
 
 \end{tabularx}
 \end{table}

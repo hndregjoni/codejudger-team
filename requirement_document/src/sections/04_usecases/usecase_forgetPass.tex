@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\textwidth}{|l|X|}
+\hline
+UC Name & UC\_Forget\_password \\ \hline
+
+Summary &  User forgets password \\ \hline
+
+Dependency & This usecase depends on the signup usecase \\ \hline
+
+Actors & User \\ \hline
+
+Preconditions & User must have a registered account \\ \hline
+
+Description of the Main Sequence & 1.	User opens Login page  \newline 2. User is aware of not knowing the password, hence it clicks "Forgot" \newline 3.User can choose to write his/her email or username to identify the account    \newline 4. If the username/email exist, an email is sent \newline 5. Else, an error message is displayed \newline 6. Inside the email , press on the confirmation link if you want to reset your password. \newline 7. Type the new password\newline 8.Confirm the typed password \newline 9. Press the button Submit \newline 10. Te system will ridirect the user t login \\ \hline
+
+Description of the Alternative Sequence & 1.	User opens Login page  \newline 2. User is not aware of not knowing the password, hence it cntinues with the normal flow of logging in  \newline 3.	User finds out he/she cannot log in due to the credentials being wrong \newline 4. User performs step 3\-10 the same \\ \hline
+
+Non functional requirements & \- \\ \hline
+
+Postcondition & In the end of this usecase , the user will have restored the password \\ \hline
+
+\end{tabularx}
+\end{table}
+

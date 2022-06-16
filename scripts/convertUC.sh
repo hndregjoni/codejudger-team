@@ -6,7 +6,8 @@ for f in usecases/*.md; do
 
     echo "Doing $short"
     [[ $short == "_boilerplate.md" ]] && continue
-    [ -s $f ] && continue
+    # [ -s $f ] && continue
 
     ./scripts/latexUC.py $f > ./requirement_document/src/sections/04_usecases/$tex_f
+    echo Saved to $tex_f
 done

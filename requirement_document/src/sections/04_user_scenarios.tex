@@ -45,21 +45,21 @@ Following we have the UseCase diagrams, and then a full page view of the whole s
 \begin{landscape}
     \begin{figure}
         \centering
-        \includesvg[width=800pt]{../../diagrams/UseCase/system_boundary.svg}
+        \scalebox{0.55}{
+        \includegraphics[]{../../diagrams/UseCase/system_boundary.png}
+        }
         \caption{Full System view of the UseCases}
     \end{figure}
 \end{landscape}
 \restoregeometry
 
 \subsection*{User Stories and Usecases}
+\input{./sections/04_usecases/usecase_addJudgeServer.tex}
 
 \input{./sections/04_usecases/CodeJudgerUserPOV.tex}
 
 \pagebreak
 \input{./sections/04_usecases/DailyChallangeTable.tex}
-
-\pagebreak
-\input{./sections/04_usecases/usecase_addJudgeServer.tex}
 
 \pagebreak
 \input{./sections/04_usecases/usecase_banUser.tex}
@@ -85,8 +85,8 @@ Following we have the UseCase diagrams, and then a full page view of the whole s
 \pagebreak
 \input{./sections/04_usecases/usecase_login.tex}
 
-% \pagebreak
-% \input{./sections/04_usecases/usecase_profileChange.tex}
+\pagebreak
+\input{./sections/04_usecases/usecase_profileChange.tex}
 
 \pagebreak
 \input{./sections/04_usecases/usecase_register.tex}
@@ -100,5 +100,5 @@ Following we have the UseCase diagrams, and then a full page view of the whole s
 \pagebreak
 \input{./sections/04_usecases/usecase_submit.tex}
 
-% \pagebreak
-% \input{./sections/04_usecases/usecase_viewMetrics.tex}
+\pagebreak
+\input{./sections/04_usecases/usecase_viewMetrics.tex}

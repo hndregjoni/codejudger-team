@@ -28,7 +28,7 @@ def sanitize(t):
         .replace("}", "\\}")\
         .replace("–","-")\
         .replace("’", "'")\
-        .replace("'", "\\'")\
+        .replace("'", "")\
         .replace("-", "\\-")\
         .replace("_", "\\_")
 
@@ -79,7 +79,7 @@ Preconditions & {precond} \\\\ \hline
 
 Description of the Main Sequence & {desc_m} \\\\ \hline
 
-Descriptoin of the Alternative Sequence & {desc_alt} \\\\ \hline
+Description of the Alternative Sequence & {desc_alt} \\\\ \hline
 
 Non functional requirements & {nfreq} \\\\ \hline
 
@@ -91,19 +91,5 @@ Postcondition & {postcond} \\\\ \hline
 
 with open(path) as f:
     all_lines = f.readlines()
-
-    # print([*map(
-    #     splt,
-    #     lines
-    # )])
-
-    # result = []
-
-    # for line in lines:
-    #     result.append(line.split("|"))
-    #     # print(line.split("|").strip())
-    #     # print("AAAA")
-    
-    # result = no_spaces(result)
-    
+ 
     print(get_table(read_lines(all_lines)))
