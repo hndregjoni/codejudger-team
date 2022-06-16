@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\textwidth}{|l|X|}
+\hline
+UC Name & UC code and name goes here \\ \hline
+
+Summary &  Admin bans user \\ \hline
+
+Dependency & \- \\ \hline
+
+Actors & Admin \\ \hline
+
+Preconditions & \-There must be users registered \\ \hline
+
+Description of the Main Sequence & 1.	Open \'Home\'  \newline  2. Go to \'Manage Users\' \newline 3. Search user by username \newline 4.	  Press \'Ban User\' \newline 5. Write a comment in the textbox explaining the reason of banning  \newline 6. Send email notifying user of them being banned \newline 7. Refresh page and see if the account\'s status has changed \\ \hline
+
+Descriptoin of the Alternative Sequence & 1. Step 1\-3 are from the main sequence are performed \newline 2. Press "Alert user" for possible ban \newline 3. Write a comment explaining why \newline 4. If User takes into account the comment, remove \'Yellow\' status from account \newline 5. Else, ban User permanently \\ \hline
+
+Non functional requirements & The system shall implement user privacy as set out in the preferences \\ \hline
+
+Postconditoin & User is banned from the system \\ \hline
+
+\end{tabularx}
+\end{table}
+

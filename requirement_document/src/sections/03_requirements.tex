@@ -1,39 +1,164 @@
 \section{Requirements}
-a
-
 \subsection{Functional Requirements}
-a
+
+\begin{table}[htbp]
+    \centering
+    \begin{tblr}{
+        colspec={|X|X[3]|X[3]|X|}, row{1} = {c}, hlines,
+    }
+        Req# & Requirement & Comments & Priority \\
+
+        FR\_1 & 
+        System should allow for the access of multiple users. & 
+        These are described indepth in the usecase diagrams. &
+        3 \\
+
+        FR\_2 &
+        An administrator actor has to have complete control over the system &
+        This is one of the 3 main actors of the system. &
+        3 \\
+
+        FR\_3 &
+        Roles and concerns should be segregated, and authentication and Authorization
+        should take this into account &
+        Many existing patterns can be used, such as RBAC (Role Based Access Control) &
+        3 \\
+
+        FR\_4 &
+        A specific actor is responsible for the creation and curation of problem lists &
+        The \textbf{Problem Setter} actor &
+        3 \\
+
+        FR\_5 &
+        A generic actor representing the basic user of the system &
+        The \textbf{Solver} actor &
+        3 \\
+
+        FR\_6 &
+        A means of reproducing the system at ease &
+        Technologies like \textbf{Docker} are used, and Database Migrations &
+        2 \\
+
+        FR\_7 &
+        The option to create contests &
+        Contests are very similar in nature to a problem, but they are composed of a list of a colleciton of problems &
+        1
+
+    \end{tblr}
+\end{table}
 
 \subsection{Non\-functional Requirements}
-
 \subsubsection{User Interface Requirements}
 
-\subsubsection{Usability}
+The user interface is composed of 2 components primarily:
+\begin{enumerate}
+    \item The Web interface: This represents the graphical interface of the program. It all resides in the client side, and runs exclusively in the browser. Communication with the actual system is achieved via performing communication with the next sort of interface.
+    \item The API (with a prefix /api/v1/)
+    \item Problems are to be offered as a Git repository, via conventional Git interfaces (pushing, pulling, committing etc.)
+\end{enumerate}
 
+\subsubsection{Usability}
 \subsubsection{Performance}
+
+High performance is sought, and this can be achieved as a combination of these two approaches:
+
+\begin{enumerate}
+    \item Good hardware (vertical scaling): Since the architecture of the system is mostly monolithic, a good server hosting the main component of the system (Backend) would be viable.
+    \item Commodity hardware (horizontal scaling): The many other components of the system (represented in the deployment diagram) can be tackled in a horizontal way. For example, 2 or 3 devices can act as judge servers, answering in a round robin fashion.
+\end{enumerate}
+
 \subsubsubsection{Capacity}
+
+The minimal estimates for the main node are:
+\begin{enumerate}
+    \item Storage: Minimum 20GB
+    \item Memory: Minimum of 8GB
+\end{enumerate}
+
+
+\noindent
+For the Judge Servers:
+\begin{enumerate}
+    \item Storage: Minimum 10GB
+    \item Memory: Minimum of 2GB
+\end{enumerate}
+
 \subsubsubsection{Availability}
+
+99\% would be the optimal goal. This can be achieved by a special care with respect to the bottlenecks (limiting the number of submissions,
+and making extensive use of queueing systems.)
+
 \subsubsubsection{Latency}
 
+The response time for the majority of the queries is expected to be sub-200ms, while the actual
+code evaluation is to be more flexible (depending on the size of the test-set, or time constraint configurations).
+
 \subsubsection{System Interface/Integration}
+
+The solution makes use of different system interfaces:
+\begin{enumerate}
+    \item{git}: for problem management
+    \item{Linux containers}: for setting up evaluation environments
+\end{enumerate}
+
+It also is a source of conventions of its own. An extensive description of the Application Interface can be
+can be seen in the API specs.
+
 \subsubsubsection{Network and Hardware Interfaces}
+
+The world-facing service will be the reverse proxy (in the likes of nginx or Traefik). The communication is performed
+via HTTP. The system is segregated in a private network space (this can either be implemented in the hardware, or 
+using IaaS services). Components of the system themeslves are usuall separate hosts (or containers).
+
 \subsubsubsection{Systems Interfaces}
 
+\begin{enumerate}
+    \item Linux namespaces (via a container platform)
+    \item Linux cgroups (via a container platform)
+    \item The TCP stack for HTTP communication
+\end{enumerate}
+
 \subsubsection{Security}
+
+The infrastructure should be as such that it doesn't reveal or compromise parts of the system. The only
+incoming traffic is via the gateway. Components of the system themselves have a specifc number of ports revealed
+to one another, and authorization is performed via credentials stored securely in different environment files.
+
+User credentials are hashed and salted, and authentication and authorization is performed by tried and tested libraries.
+
 \subsubsubsection{Protection}
+
+\begin{enumerate}
+    \item A secure set of credentials for the development/deployment
+    \item The Juder evaluation enviornment should be isolated (network wise, and system wise), to prevent remote code execution.
+\end{enumerate}
+
 \subsubsubsection{Authorization and Authentication}
 
+JWT tokens, with scopes. The different resources of the system require different scopes (roles). Authorization is to be performed on both the 
+frontend and the backend, and bypassing frontend authorization guards should in no way allow for elevation of capabilities in the backend.
+
 \subsubsection{Data Management}
-a
+Postgres is used as a RDBMS, all the changes to the DB are stored in an incremental fashion, as Alembic migrations.
+Problems are also stored directly in the file system.
 
 \subsubsection{Standards Compliance}
-a
+The different technical standards and conventions utilized:
+\begin{enumerate}
+    \item REST
+    \item OAuth
+    \item JWT
+\end{enumerate}
 
 \subsubsection{Portability}
-a
+The system is very easily reproducible. This is achieved via the presence of the different docker-compose.yml files, and the specs for the system images, in the Dockerfile-s.
 
 \subsubsection{Other Non-Functional Requirements}
-a
+-
 
 \subsection{Domain Requirements}
-a
+\begin{enumerate}
+    \item Precision in the evaluation of the test cases.
+    \item Accuracy in measuring time constraints.
+    \item Preventing unintended effects of the evaluated programs in the system at large.
+\end{enumerate}

@@ -17,23 +17,71 @@ The components are as follows:
     \item Judge servers
 \end{enumerate}
 
+\begin{landscape}
+    \begin{figure}
+        \centering
+        \includesvg[width=0.9\columnwidth]{../../diagrams/Deployment/DeploymentDiagram.svg}
+        \caption{Deployment diagram}
+    \end{figure}
+\end{landscape}
+
 \subsection{Product Context}
 
 \subsection{User Characteristics}
-Create general customer profiles for each type of user who will be using the product. Profiles should include:
+This product is aimed towards small communities revolving around competitive programming. As a self-hosted solution,
+any university, school, or one-off event can use this solution to facilitate their activity.
 
-\begin{enumerate}
-    \item{Student/faculty/staff/other}
-    \item{experience}
-    \item{technical expertise}
-    \item{other general characteristics that may influence the product}
-\end{enumerate}
+\begin{table}[h]
+    \centering
+
+    \begin{tabular}{ | m{3cm} | m{10cm} | }
+        \hline
+        Profile & Features \\ \hline
+
+        \textbf{Student} &
+        \begin{enumerate}
+            \item \textit{Experience}: Minimal
+            \item \textit{Technical expertise}: Competitive Programming
+            \item \textit{Hobbies or characteristics}: Competitive programming 
+        \end{enumerate} \\ \hline
+
+        \textbf{Professor} &
+        \begin{enumerate}
+            \item \textit{Experience}: Skilled in organizing:
+            \begin{enumerate}
+                \item communities
+                \item assigning homework
+                \item managing systems
+            \end{enumerate}
+            \item \textit{Technical expertise}: Programming, Systems, Pedagogy
+            \item \textit{Hobbies or characteristics}: Eager to introduce and tutor students
+        \end{enumerate} \\ \hline
+    \end{tabular}
+
+    \caption{Profiles of targetted academia users}
+\end{table}
 
 \subsection{Assumptions}
-List any assumptions that affect the requirements, for example, equipment availability, user expertise, etc.  For example, a specific operating system is assumed to be available; if  the operating system is not available, the Requirements Specification would then have to change accordingly.
+This product is to be developed on a certain number of technical prerequisites. The toolstack is described as follows:
+
+\begin{enumerate}
+    \item \textit{Host OS}: \textbf{Linux} as a first class citizien.
+    \item \textit{Container platform}: \textbf{Docker} utilized extensively.
+    \item \textit{Protocol}: \textbf{HTTP} is the main communication protocol
+    \item \textit{Backend}: \textbf{Python} running \textbf{FastAPI} and several other tools
+    \item \textit{Frontend}: \textbf{Javascript} with \textbf{Nuxt.js}, \textbf{Vue}
+\end{enumerate}
 
 \subsection{Constraints}
-Describe any items that will constrain the design options, including
+\begin{enumerate}
+    \item \textbf{Time}: An MVP is sought, within the time constraints.
+    \item \textbf{Migration} from existing systems via different scripts, as a possible action to be performed post-development.
+    \item \textbf{Clarity}: The technologies used should neither be too obscure, nor too ineffective.
+\end{enumerate}
 
 \subsection{Dependencies}
-List dependencies that affect the requirements.  Examples:
+\begin{enumerate}
+    \item \textit{Continuous} monitoring of the health of the Judger servers.
+    \item \textit{Continuous} removal of items hogging up the system (i.e. old notifications)
+    \item \textit{Backcompatibility} with older definitions of what constitutes a problem, to allow for migration.
+\end{enumerate}
