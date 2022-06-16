@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Login|
 | :---        |    :----   |
 | Summary      | Log-in phase      |
 | Dependency   | Does not have dependencies   |

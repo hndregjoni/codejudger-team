@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_List_of_problems |
 | :---        |    :----   |
 | Summary      | See the list of available problems       |
 | Dependency   | -   |

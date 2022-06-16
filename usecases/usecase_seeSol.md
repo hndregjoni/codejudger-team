@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_See_solution|
 | :---        |    :----:   |
 | Summary      | See other's solutions and ranking       |
 | Dependency   | This optional section describes whether the UC depends on other UCs.   |

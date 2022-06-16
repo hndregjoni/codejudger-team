@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Change_profile |
 | :---        |    :----   |
 | Summary      | Change profile settings     |
 | Dependency   | -  |

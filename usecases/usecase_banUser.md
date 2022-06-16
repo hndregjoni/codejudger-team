@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Ban_user|
 | :---        |    :----  |
 | Summary      | Admin bans user    |
 | Dependency   | -  |

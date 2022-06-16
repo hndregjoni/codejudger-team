@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_View_Metrics |
 | :---        |    :----  |
 | Summary      | Admin views system metrics       |
 | Dependency   | - |

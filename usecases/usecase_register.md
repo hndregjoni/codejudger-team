@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Register |
 | :---        |    :----:   |
 | Summary      | Registration phase   |
 | Dependency   | -  |

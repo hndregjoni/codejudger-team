@@ -1,4 +1,4 @@
-| UC Name	  | Daily challanges |
+| UC Name	  | UC_Daily_challenge |
 | :---        |    :----:   |
 | Summary      | Every day the user logs into our software there will be a challange available for him to solve, which changes daily.       |
 | Dependency   | Doesn’t depend on previous User case other than the user would nneed to have an account.   |
