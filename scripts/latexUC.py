@@ -22,6 +22,7 @@ def trim(line):
 def sanitize(t):
     return t.replace("<br>", "\\newline")\
         .replace("&", "\\&")\
+        .replace("#", "\\#")\
         .replace("%", "\\%")\
         .replace("{", "\\{")\
         .replace("}", "\\}")\
