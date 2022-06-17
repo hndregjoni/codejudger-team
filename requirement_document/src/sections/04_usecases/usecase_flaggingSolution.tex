@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\textwidth}{|l|X|}
+\hline
+UC Name & UC\_Flagging\_solution \\ \hline
+
+Summary &  Some solutions may be inappropriate or obviously irrelevant. This usecase covers the flagging/reporting of these solutions. \\ \hline
+
+Dependency & Mutual dependency with Flagging Problem. \\ \hline
+
+Actors & Primary actors are the Problem Setter and the Admin. A secondary actor can be the Solver. \\ \hline
+
+Preconditions & \- User must be logged in. \newline \- User cant flag own solution. \newline \- User can flag only once, until reviewed. \\ \hline
+
+Description of the Main Sequence & 1. User has a solution open. \newline 2. Solution appears to be inappropriate (the content), or irrelevant (i.e. empty solution) \newline 3. User is presented a flagging button, which they use. 4. User is provided a list of reasons, which they can choose from. 5. User can leave a remark. \\ \hline
+
+Description of the Alternative Sequence & \- \\ \hline
+
+Non functional requirements & \- The major concern with flagging has to do with the ethical grounds of a solution. One cant use it as a medium of an unintended pursue. \newline \- Another concern is that of aiming for qualitative content. \\ \hline
+
+Postcondition & \- Solution is flagged and cant be flagged twice by user. \newline \- User is notified, problem author is notified, and admins are notified. \\ \hline
+
+\end{tabularx}
+\end{table}
+

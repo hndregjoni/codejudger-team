@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\begin{tabularx}{\textwidth}{|l|X|}
+\hline
+UC Name & UC\_Fork \\ \hline
+
+Summary &  A problem setter can easily copy an existing problem by using the fork mechanism \\ \hline
+
+Dependency & This usecase depends on the problem creation usecase. \\ \hline
+
+Actors & The primary actor is the Problem Setter. \\ \hline
+
+Preconditions & \- User forking should have problem creation capabilities. \newline \- Problem should exist. \newline \- Problem should be forkable. \newline \- User should be able to see problem. \\ \hline
+
+Description of the Main Sequence & 1. User chooses problem they want to fork. \newline 2. User clicks fork. \newline 3. User decides between hard forking and soft forking. \newline 4. The problem slug is copied over, and a counter is appended. \newline 5. User is presented with the same UI as the problem creation usecase. \newline 6. User edits (or not) the copied constraints. \\ \hline
+
+Description of the Alternative Sequence & Depending on the hard or soft choice, we have: \newline \- Hard forking: Repo behind problem is git cloned. \newline \- Soft forking: The repo directory is only softlinked. \newline Another alternative flow is in the case when the user specifies a git URL for the forking. \\ \hline
+
+Non functional requirements & \- These operations are very file system aware, so care must be had. \newline \- Forking a problem from a URL might copy over some large unwanted files, so this should be prevented. \newline \- Forking should be performed as a backgroudn task as to not intervene with the user experience. \\ \hline
+
+Postcondition & A new problem is created and it is a fork of the original one. \\ \hline
+
+\end{tabularx}
+\end{table}
+

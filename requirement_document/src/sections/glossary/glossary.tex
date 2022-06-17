@@ -1,0 +1,49 @@
+\begin{itemize}[]
+
+    \item \textbf{Actors}: 
+    \begin{enumerate}
+        \item \textbf{Solver}: The actor representing the generic user of the system ,whose goal is to solve problems and participate in contest
+        \item \textbf{Setter}: The actor responsible for creating problems and hosting contests
+        \item \textbf{Admin}: The superuser of the system 
+        \item \textbf{Judger}: The non-human actor of the system responsible for evaluating pieces of code   
+    
+    \end{enumerate}
+
+    \item \textbf{Client}: The totality of the system residing on the user's end 
+    \item \textbf{Server}: The device or group of devices responsible for offering the service in an almost centralized way 
+    \item \textbf{API}: The application programming interface, a set of conventions used by other application for easier interation with your system 
+    \item \textbf{Web server}: The sort of server responsible for serving web content ( via http generally)
+    \item \textbf{REST API}: A set of conventions making for semantic use of http conventions 
+    \item \textbf{HTTP }: The amin protocol used over the web 
+    \item \textbf{DBMS}: An appplication responsible for file storage and management of data 
+    \item \textbf{Web framework}: A library or a set of tools use for more streamlined web development experiences
+    \item \textbf{Fastapi}: A powerful web framework for python 
+    \item \textbf{SPA}: Single page app 
+    \item \textbf{Nuxtjs}: A very versatile frontened framework for developing SPA apps 
+    \item \textbf{MVC}: Model View Control , a modern pattern for developing applications
+    \item \textbf{Model}: The M in MVC. A representation of the database, the data, and its relationns in code
+    \item \textbf{ORM}: Object Relational Mapping, a lkbrary that allows for more semantic representaion of the model
+    \item \textbf{SqlAlchemy}: A famous ORM for Python, with plenty of features
+    \item \textbf{Migration}: The process of storing incremental changes of the db in code commits
+    \item \textbf{Alembic}: SqlAlchemy extension allowing for migrations
+    \item \textbf{Our model}:
+    \begin{enumerate}
+        \item \textbf{Problem}: The representation of one problem. A collection of testcases, a statement and some constraints
+        \item \textbf{TestCase}: The elementary unit of data that is fed a program during evaluation
+        \item \textbf{Contest}: A collection of problems, having constraint much like the same way
+        \item \textbf{ConstraintSet}: An entity representating a set of constraints:
+        \begin{enumerate}
+            \item \textbf{TimeSpaceConstraint}: Specifies a time limit and a space limit per test case, during running
+            \item \textbf{TimespanConstraint}: Specifies a time range within which the problem can be attempted (or the contest joined)
+            \item \textbf{UserConstraint}: Specifies a limit to the user which can attempt the problem or join the contest
+            \item \textbf{LanguageConstraint}: Specifies a limit to the languages usable.
+        \end{enumerate} \\
+        \textbf{NOTICE}: The Contest constraints shall override the Problem constraints
+        \item \textbf{Tag}: Represents a tag, used for storing interests and problem tags
+        \item \textbf{Language}: Represents a language used in the system.
+        \item \textbf{Judger} or \textbf{Judge}: The data representation of the Judger server, one or more servers that are used to evaluate a problem safely.
+    \end{enumerate}
+    \item \textbf{Queue}: A service that offers queueing capabiiities, in this case, for enqueueing and dequeueing submisison attempts \\
+    \textbf{NOTICE}: There shall be a limit to the submissoins enqueued, capped by submissions per user at a time, submission per user per unit of time, total number of submissions and submissions per queue, all configurable
+    \item \textbf{GIT}: The version control system. It shall be used for the management of each prolbem allowing for easier importing and exporting of problems using a GIT url.
+\end{itemize}

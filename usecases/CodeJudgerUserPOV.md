@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Initial_system_view |
 | :---        |    :----:   |
 | Summary      | CodeJudger is a web-application that provides all basic needs to learn & practice coding. The user can watch tutorials, solve different problems of their choices, enter the daily challenge, or ask for help in the forum. |
 | Dependency   | This web-app depends on the database that will store all the exercises and on the solver that provides their solutions. |

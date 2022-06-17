@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Add_judge_server |
 | :---        |    :---   |
 | Summary      | Judge servers are aimed to be horizontally scalable, even though one can do the job. An Admin can add additional ones. |
 | Dependency   | - Health metrics usecase. |

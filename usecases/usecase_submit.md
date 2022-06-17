@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Submit_solution|
 | :---        |    :----   |
 | Summary      | User attempts a solution   |
 | Dependency   | This UseCase depends on another UseCase, namely the Run Code UseCase of CodeJudger(name of actor)   |

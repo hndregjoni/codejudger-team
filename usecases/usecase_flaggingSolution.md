@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Flagging_solution|
 | :---        |    :---   |
 | Summary      | Some solutions may be inappropriate or obviously irrelevant. This usecase covers the flagging/reporting of these solutions. |
 | Dependency   | Mutual dependency with Flagging Problem. |

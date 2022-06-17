@@ -1,1 +1,104 @@
 \section{User Scenarios/Use Cases}
+
+\subsection*{Actors}
+
+The actors of the system include:
+
+\begin{enumerate}
+    \item \textit{User}: The abstract base for all the human users, which accounts for authentication and authorization.
+    \begin{enumerate}
+        \item \textit{Solver}: The basic user of the system, the one who browses problems and solves them
+        \item \textit{Problem Setter}: The user responsible for creating more problems.
+        \item \textit{Admin}: The user that manages the system.
+    \end{enumerate}
+
+    \item \textit{Judger}: The actor representation of the component/s that will do code evaluation.
+\end{enumerate}
+
+Following we have the UseCase diagrams, and then a full page view of the whole system view.
+
+\begin{figure}[h]
+    \centering
+    \includesvg[width=0.9\columnwidth]{../../diagrams/UseCase/problemSet_boundary.svg}
+    \caption{The Solver actor}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includesvg[width=0.9\columnwidth]{../../diagrams/UseCase/problemSet_boundary.svg}
+    \caption{The Problem Setter actor}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includesvg[width=0.9\columnwidth]{../../diagrams/UseCase/managerial_boundary.svg}
+    \caption{The Admin actor}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includesvg[width=0.9\columnwidth]{../../diagrams/UseCase/judging_boundary.svg}
+    \caption{The Judger actor}
+\end{figure}
+
+\newgeometry{top=2mm, bottom=2mm, left=2mm, right=2mm}
+\begin{landscape}
+    \begin{figure}
+        \centering
+        \scalebox{0.55}{
+        \includegraphics[]{../../diagrams/UseCase/system_boundary.png}
+        }
+        \caption{Full System view of the UseCases}
+    \end{figure}
+\end{landscape}
+\restoregeometry
+
+\subsection*{User Stories and Usecases}
+\input{./sections/04_usecases/usecase_addJudgeServer.tex}
+
+\input{./sections/04_usecases/CodeJudgerUserPOV.tex}
+
+\pagebreak
+\input{./sections/04_usecases/DailyChallangeTable.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_banUser.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_createContest.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_createProblem.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_flaggingSolution.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_flagProblem.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_forgetPass.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_fork.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_login.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_profileChange.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_register.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_seeProblem.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_seeSol.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_submit.tex}
+
+\pagebreak
+\input{./sections/04_usecases/usecase_viewMetrics.tex}

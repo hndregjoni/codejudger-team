@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Fork|
 | :---        |    :---   |
 | Summary      | A problem setter can easily copy an existing problem by using the fork mechanism |
 | Dependency   | This usecase depends on the problem creation usecase. |

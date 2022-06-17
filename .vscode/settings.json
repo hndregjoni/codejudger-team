@@ -9,7 +9,7 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-pdf",
-                "-outdir=./build/",
+                "-output-directory=./build/",
                 "%DOC%"
             ],
             "env": {}

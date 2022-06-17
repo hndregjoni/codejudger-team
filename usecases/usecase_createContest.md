@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Create_contest |
 | :---        |    :----   |
 | Summary      | Create a contest for Solvers to participate    |
 | Dependency   | - |

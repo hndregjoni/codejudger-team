@@ -1,4 +1,4 @@
-| UC Name	  | UC code and name goes here |
+| UC Name	  | UC_Flag_problem |
 | :---        |    :---   |
 | Summary      | User can flag problem (wrong testcases, vague statement, etc.) |
 | Dependency   | This usecase is mutually dependant with the solution flagging |
